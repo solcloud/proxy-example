@@ -1,10 +1,10 @@
 <?php
 //sleep(4);
 
-$urlTarget = 'http://localhost:9001/target.php?msg=';
-$urlDispatcher = 'http://localhost:9002/dispatcher.php';
-$urlEndpoint1 = 'http://localhost:9010/endpoint.php';
-$urlEndpoint2 = 'http://localhost:9020/endpoint.php?whatever';
+$urlTarget = 'http://localhost:7001/target.php?msg=';
+$urlDispatcher = 'http://localhost:7002/dispatcher.php';
+$urlEndpoint1 = 'http://localhost:7010/endpoint.php';
+$urlEndpoint2 = 'http://localhost:7020/endpoint.php?whatever';
 
 $proxies = [
     $urlEndpoint1 => [],
