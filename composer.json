@@ -2,6 +2,6 @@
     "name": "solcloud/proxy-example",
     "require": {
         "php": ">= 7.1",
-        "solcloud/proxy": "^2.0"
+        "solcloud/proxy": "^3.0"
     }
 }
