@@ -21,5 +21,5 @@ php -S localhost:7001 -t example/ & \
 php -S localhost:7002 -t example/ & \
 php -S localhost:7010 -t example/ & \
 php -S localhost:7020 -t example/ & \
-curl http://localhost:7000/client.php
+sleep 4 && curl http://localhost:7000/client.php
 ```
